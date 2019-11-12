@@ -1,0 +1,15 @@
+1)
+Public static boolean testaPolindromo (String word){
+	Pilha<Characteres> pilha = new Pilha <Characteres>();
+	For (int i=0; i<word.length(); i++)
+		Pilha.empilha(word.char(i));
+}
+	String.palavraInversa = “”;
+	While (pilha.estaVazia()){
+		palavraInversa = pilha.desempilha();
+}
+If (plavraInversa.equalsIgnorecase(word)){
+	Return true;
+}
+	
+}
